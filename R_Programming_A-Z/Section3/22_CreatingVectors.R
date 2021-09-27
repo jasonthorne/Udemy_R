@@ -6,6 +6,7 @@
 vector1 <- c(3,45,56,732) # 'combine' function creates vectors
 vector1
 
+# checking vector type:
 is.numeric(vector1) # check if object is numeric
 is.integer(vector1) # check if integer (false as integers are stored as doubles by default) +++++++++++
 is.double(vector1) # check if double
@@ -22,12 +23,24 @@ is.character(vector3) # check if char
 # ---------------------------------------------------
 # OTHER WAYS OF CREATING VECTORS:
 
-# sequence (like 1:15) adds a sequence of numbers
+# SEQUENCE -  (like 1:15) adds a sequence of numbers:
 seq(1,15) 
 
 vector4 <- seq(1,15,2) # added 'step' of 2 (so creates: 1, 3, 5, 7... 15. (15 obv ignored if not hit)
 vector4
 
+# ----------------------
+# REPLICATE:
+
+vector5 <- rep(3, 50) # replicate number 3, 50 times
+vector5
+
+rep("A", 5) # replicate "A", 5 times
+
+# replicate a vector:
+x <- c(80, 20)
+rep(x,10) # replicate x vector 10 times ++++++++++++++++
 
 
-rep() # replicate
+
+
