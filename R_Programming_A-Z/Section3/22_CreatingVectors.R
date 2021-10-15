@@ -35,7 +35,7 @@ vector4
 vector5 <- rep(3, 50) # replicate number 3, 50 times
 vector5
 
-rep("A", 5) # replicate "A", 5 times
+rep("A", 5) # replicate character "A", 5 times
 
 # replicate a vector:
 x <- c(80, 20)
