@@ -58,5 +58,5 @@ c2 <- c("I", "like", "trains")
 c3 <- c(1, 2, 3)
 
 myMatrix4 <- cbind(c1,c2,c3) # combine vectors into a matrix BY COL
-myMatrix4 # ++++++++++ Note that ints get converted to chars as you cant mix types
+myMatrix4 # +++++++++ Note that ints get converted to chars as you cant mix types
 
